@@ -9,6 +9,11 @@ import ContactForm from '@/components/ContactForm'
 </script>
 
 <template>
+  <image 
+    src="/assets/images/bg.png"
+    alt="Background image"
+    class ="w-full h-auto"
+  />
   <div class="h-screen flex flex-col md:flex-row items-center justify-around m-4 md:m-11 lg:px-20">
     <!-- Text Content -->
     <div class="flex flex-col justify-center text-center md:text-left">
